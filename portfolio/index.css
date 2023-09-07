@@ -1,0 +1,408 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+*{
+    
+    margin:0;
+    padding: 0;
+}
+
+.sidebar{
+   
+    background-color: rgb(167, 158, 158);
+    width:19vw;
+ height:100vh;
+    
+    font-family: sans-serif;
+}
+
+.sidebar nav{
+    text-align: center;
+    padding:10px;  /*last padding 52*/
+    
+}
+.sidebar nav a:hover{
+   color:green;    
+
+
+}
+
+.sidebar nav li{  /*this nav li is for making style in sidebar options */
+    margin-top: 6px;  /*29 older*/
+    margin-left: 1px;  /*-4*/
+    font-family: sans-serif;
+    list-style: none;
+    font-size: 14px;  /*25 older*/
+    padding: 42px 0;   /* 51 this padding is for side bar options (home,intro etc) making gap between top-bottom */
+    
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+
+
+
+
+.main{
+    padding: px;
+   
+   /* background-color: white;*/
+    height: 99.99vh; /*99.99vh */
+   width: 80.97vw; /*80.97*/
+    background: linear-gradient(to right,#211eb8,#8ecdff);
+    background-image: linear-gradient(to right, rgb(225, 197, 230), rgb(142, 205, 255));
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+.container{
+    background: linear-gradient(to right,#211eb8,#8ecdff);
+    background-image: linear-gradient(to right, rgb(225, 197, 230), rgb(142, 205, 255));
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    display:flex;
+}   
+.infoContainer{
+   /* background-color:white;*/
+
+    height:55vh;
+    width:75vw;
+    margin:144px auto;
+    display:flex;
+    justify-content: space-around;
+
+}
+.devinfo{
+    padding: 8px;
+    margin: 0px -12px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+   /* font-family: 'Source Code Pro', monospace;*/
+}
+.Hello{
+    font-size: 59px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.name{
+    font-size: 28px;  /*40*/
+    font-weight: bold;
+
+}
+.About{
+    margin-top: 5px;  /*20*/
+    font-size: 16px;  /*25*/
+    justify-content: space-around;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.Moreabout{
+    margin-top: 17px; /*25*/
+    font-size: 12px; /*25*/
+    font-family: 'Source Code Pro', monospace;
+
+}
+.buttons{
+    margin-top: 36px;  /*53*/
+  }
+
+.buttons button{
+   margin: 0px 1px;   /*3 rightleft*/
+    border-radius: 9px;  /*22*/
+    padding: 2px 10px;   /*7  14*/
+    margin-right: 34px;  /*36*/
+    color: rgb(255, 253, 253);
+    background-color: darkblue;
+    font-size: 15px; /*17*/
+    font-weight: 785;
+    cursor: pointer;
+
+}
+
+.buttons button:hover{
+    background-color: green;
+    color:black;
+
+}
+
+
+.devpic img{
+
+    /*position: absolute;
+    left: 75%;
+    height: 55vh;
+    margin-top: 134px;
+    float: right;*/
+   /*width: 27%;
+    position: absolute;
+    left: 73%;
+    height: 70%;
+    margin-top: 40px;
+    float: right;*/
+ /* position: relative; */
+    margin: -1px -14px; /*-33*/
+    margin-left: 29px;
+    width: 26vw;
+    left: 1%;
+    height: auto; /*69*/
+    margin-top: 90.1px;   /*image would be on the place on corner right bottom */
+    bottom: -1%; /*1*/ 
+   /* margin-top: -86.9px;
+    max-width: 100%!important;
+    height: auto!important;  */
+
+
+}
+ /* .devpic2 img{
+    margin: -1px -14px;
+    margin-left: 29px;
+    width: 26vw;
+    left: 1%;
+    height: auto;
+    margin-top: 5.6rem;
+
+
+}  */
+
+
+
+
+
+.contactForm{
+    font-size: 14px;
+    padding: 0 39px;
+ padding-top: 132px;
+    font-family: 'Source Code Pro', monospace;
+    
+    
+
+}
+.contactForm h1{
+
+    text-align: left;
+    font-family: 'Anton', sans-serif;
+}
+.contactForm form div{
+    padding: 14px 0;
+    display: flex;
+    flex-direction: column;
+    margin: 2px 4px;
+
+}
+.contactForm form div input{
+    width: 27vw;
+    border-radius: 4px;
+    font-size: 13px;
+    margin: 6px 0 0 0;
+}
+#name{
+    text-align: left;
+}
+
+
+#emailHelp{
+    
+text-align: left;
+    font-size: 9px;
+    color: blue;
+    padding: 6px 4px;
+    font-family: sans-serif;
+    width: 17vw;
+}
+
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    margin: 0px 12px;
+    width: 40px;
+}
+/*.button{
+    margin: 16px 4px;
+}*/
+.btn{
+   /* margin: -8px 6px;
+    border-radius: 22px;
+    padding: 5px 18px;
+    margin-right: 36px;
+    color: rgb(255, 253, 253);
+    background-color: darkblue;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;*/
+    margin: -8px 13px;
+    border-radius: 4px;
+    padding: 0px 16px;
+    margin-right: 35px;
+    color: rgb(255, 253, 253);
+    background-color: darkblue;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: auto;
+}
+.btn:hover{
+    background-color: green;
+    color:black;
+    font-size: 0.9rem;
+}
+
+.blogItem{
+    font-size: 15px;
+    margin: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blogcontainer {
+    height: 99.99vh;
+    width: 80.97vw;
+    background: linear-gradient(to right,#211eb8,#8ecdff);
+    background-image: linear-gradient(to right, rgb(225, 197, 230), rgb(142, 205, 255));
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+
+}
+.blogcontainer p{
+   /* font-family: 'Amatic SC', cursive;*/
+   font-size: 12px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 7px;
+    
+}
+/*Intro css style here*/
+.main h1{
+    font-family: 'Anton', sans-serif;
+    padding: 7px 10px;
+    bottom: -2%;
+}
+
+.main h2{
+    font-family: 'Play', sans-serif;
+    padding: 63px 10px;
+    bottom: -2%;
+    position: relative;
+
+}
+.main p{
+    font-size: 17px;
+    padding: 3px 10px;
+    font-family: 'Slabo', serif;
+        bottom: -1%;
+    position: relative;
+}
+
+    .skillcontainer{
+      
+               padding: 12px;
+    }
+
+    .skill/*html */
+    {
+        border-style: solid;
+        width: 21vw;
+    height: 1.5vh;
+    
+        background-color: red;
+    }
+    .skill:hover{
+         
+    }
+    
+    .skill1 /*css*/
+    { border-style: solid;
+        width: 19vw;
+    height: 1.5vh;
+        background-color:yellow ;
+    }
+    .skill2  /*javascript*/
+    {
+        border-style: solid;
+         width: 17vw;
+    height: 1.5vh;
+        background-color: blue;
+    }
+    .skill3
+    { border-style: solid;
+        width: 16vw;
+    height: 1.5vh;
+        background-color: green;
+    }
+    .skill4
+    { border-style: solid;
+        width: 18vw;
+    height: 1.5vh;
+        background-color: blueviolet;
+    }
+    .skillitem{
+        font-weight: bold;
+        margin-top: 29px;
+        align-items: center;
+    display: flex;
+               text-align: center;
+    }
+    @media ( max-width: 1060px){
+         /* .devpic{
+            display: none; */
+        
+        .blogcontainer{
+            font-size: x-small;
+           
+        }
+      
+   
+   
+}
+
+ .hum{   /*hamburger icon css*/
+    top: -9px;
+    left: -8px;
+    position: absolute;
+    width: 47px;
+    
+    
+}
+.cross
+{ 
+    top: 7px;
+    left: -18px;
+    position: relative;
+    width: 14px;       
+} 
+@media screen and (max-width:1060px) {
+    .sidebar{
+        transform: translate-(-266px, 0px);
+               
+    }
+}
+    
+
+
+
+    
+
